@@ -56,7 +56,3 @@ resultados = np.asarray(resultados)
    
 print(f'Média = {resultados.mean()}')
 print(f'Desvio Padrão = {resultados.std()}')
-
-import pickle
-pickle.dump(classificador, open('classificador_random_forest.sav', 'wb'))
-random_forest = pickle.load(open('classificador_random_forest.sav', 'rb'))
