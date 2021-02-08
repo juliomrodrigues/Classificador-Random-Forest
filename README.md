@@ -3,7 +3,7 @@ Treinando um modelo usando random forest e aplicando em uma base de dados para c
 
 O objetivo é prever se uma pessoa possui renda anual <= ou > 50 mil dólares por ano.
 
-**Percentual Mínimo** -> Base Line Classifier = 0.7559 (ZeroR).
+**Percentual mínimo a ser batido** -> Base Line Classifier = 0.7559 (ZeroR).
 
 Base Line Classifier = 0.7559 (ZeroR)
 
