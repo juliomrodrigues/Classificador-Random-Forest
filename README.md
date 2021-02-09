@@ -27,6 +27,9 @@ A Matriz na tabela acima é formada pela média de todas as matrizes geradas ao 
 
 A diagonal principal (em negrito) destaca os registros classificados corretamente.
 
+### Especificações dos parâmetros usados:
+- RandomForestClassifier(n_estimators=40, criterion='entropy', random_state=0)
+
 ### Bibliotecas usadas:
 - Pandas
 - Sklearn
@@ -48,6 +51,7 @@ import pickle
 classificador = pickle.load(open('classificador_random_forest.sav', 'rb'))
 ~~~~~
 4. Pronto, agora o classficador está pronto para ser usado.
+5. Se desejar treinar um novo classificador, faça o download do arquivo de treinamento e execute novas combinações de pré-processamentos e parâmetros [aqui](https://github.com/juliomrodrigues/Classificador-Random-Forest/blob/main/treinamento_random_forest.py).
 
 #### Outros Classificadores:
 - [Naive Bayes](https://github.com/juliomrodrigues/Classificador-Naive-Bayes)
